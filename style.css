@@ -6,14 +6,30 @@
     font-family: sans-serif;
     }
     
-  /* container class that will "auto-center" itself */
+/* container class that will "auto-center" itself */
 .container {
     width: auto;
     margin: 0 auto;
 }
 
+.padding {
+    padding: 10px;
+}
+
 .display-flex { 
     display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px black;
 }
 
 .top-navbar {
@@ -25,13 +41,13 @@
     flex: 3;
     height: 600px;
     background-color: darkolivegreen;
+
 }
 
 .right-container {
     flex: 2;
     height: 600px;
     background-color: darkslategrey;
-    
 }
 
 .margin-left {
@@ -46,12 +62,12 @@
     align-items: center;
 }
 
-.profile-links {
+.nav-links {
     flex: 3;
     justify-content: space-between;
 }
 
-.profile-links a {
+.nav-links a {
     color: azure;
     text-decoration: none;
 }
@@ -76,10 +92,57 @@
     border-style: none;
 }
 
-.rounded {
-    border-radius: 8px;
+.profile {
+    height: 50%;
 }
 
-.shadow {
-    box-shadow: 5px 5px 5px black;
+.education {
+    height: 40%;
+    background-color: dimgray;
+}
+
+.nav-icon {
+    height: 20px;
+    padding-right: 7px;
+}
+
+.header {
+    height: 50px;
+    background-color: dodgerblue;
+}
+
+.header-2 {
+    height: 40px;
+    background-color: midnightblue;
+    color: azure;
+    width: auto;
+}
+
+.requests-box {
+    height: 30%;
+}
+
+.connections-box {
+    height: 60%;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.content-box {
+    flex-grow: 1;
 }

@@ -10,7 +10,7 @@
 <body>
     <div class="container"> 
         <div class="top-navbar display-flex">
-            <div class="profile-links display-flex margin-left centered">
+            <div class="nav-links display-flex margin-left centered">
                 <h1 class="active">Profile</h1>
                 <a href="#">Home</a>
                 <a href="#" class="active">My Profile</a>
@@ -20,13 +20,47 @@
                 <div></div><!-- spacer -->
                 <button class="btn shadow rounded">Sign Out</button>
             </div><!-- button -->   
-        </div><!--top navbar-->
+        </div><!--top-navbar-->
         <div class="main-body display-flex">
-            <div class="left-container display-flex margin-left">
-            </div><!-- left container -->
-            <div class="right-container display-flex margin-right">
-            </div><!-- right container -->
-        </div><!--main body -->
+            <div class="left-container display-flex margin-left column">
+                <div class="profile display-flex padding column">
+                    <div class="header"><img class="circle" src="https://placekeanu.com/100/100" alt="Profile Picture">
+                        <h1>Chris Doe</h1>
+                        <h3><img class="nav-icon" src="icons\map-marker.png" alt="Map Pin">Los Angeles</h3>
+                    </div>
+                    <div class="profile-content display-flex">
+                    </div>
+                </div><!-- profile -->
+                <div class="education display-flex padding column">
+                    <div class="header-2 display-flex"><h3>Education</h3>
+                    </div>
+                </div><!-- education -->
+            </div><!-- left-container -->
+            <div class="right-container display-flex margin-right column">
+                <div class="requests-box display-flex padding column">
+                    <div class="header-2"><h3>Connection Requests</h3>
+                    </div>
+                    <div class="content-box display-flex space-evenly column">
+                        <div class="display-flex space-between">
+                            <div><img class="circle" src="https://placekeanu.com/30/30" alt="Profile Picture">text
+                            </div>
+                            <div><img class="nav-icon" src="icons/accept-circle.png" alt=""><img class="nav-icon" src="icons/close-circle.png" alt="">
+                            </div>
+                        </div> 
+                        <div class="display-flex space-between">
+                            <div><img class="circle" src="https://placekeanu.com/30/30" alt="Profile Picture">text
+                            </div>                            
+                            <div><img class="nav-icon" src="icons/accept-circle.png" alt=""><img class="nav-icon" src="icons/close-circle.png" alt="">
+                            </div>
+                        </div>
+                    </div>                             
+                </div><!-- requests-box -->
+                <div class="connections-box display-flex padding column">
+                    <div class="header-2"><h3>Your Connections</h3>
+                    </div>
+                </div><!-- connections -->
+            </div><!-- right-container -->
+        </div><!-- main-body -->
     </div><!-- container -->
         </body>
 </html>
