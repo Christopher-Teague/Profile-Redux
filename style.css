@@ -1,19 +1,14 @@
-/* CSS reset */
-* {
+/*CSS Reset*/
+* {     
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    }
-    
-/* container class that will "auto-center" itself */
+}
+
 .container {
     width: auto;
     margin: 0 auto;
-}
-
-.padding {
-    padding: 10px;
 }
 
 .display-flex { 
@@ -24,24 +19,52 @@
     flex-direction: column;
 }
 
+.centered {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
 .rounded {
     border-radius: 8px;
+}
+
+.circle {
+    border-radius: 50%;
 }
 
 .shadow {
     box-shadow: 5px 5px 5px black;
 }
 
+.btn {
+    color: azure;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    border-style: none;
+}
+/* Master */
+
+.margin {
+    margin: 10px;
+}
+
 .top-navbar {
     height: 80px;
-    background-color: dodgerblue;
+    background-color: darkslategrey ;
 }
 
 .left-container {
     flex: 3;
     height: 600px;
     background-color: darkolivegreen;
-
 }
 
 .right-container {
@@ -58,10 +81,6 @@
     margin-right: 10%;
 }
 
-.centered {
-    align-items: center;
-}
-
 .nav-links {
     flex: 3;
     justify-content: space-between;
@@ -75,21 +94,12 @@
 .active {
     color: azure;
     font-weight: bolder;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black; /* txt shadow */
 } 
 
 .button {
     flex: 2;
     justify-content: flex-end;
-}
-
-.btn {
-    color: azure;
-    background-color: mediumblue;
-    width: 100px;
-    height: 30px;
-    font-size: medium;
-    border-style: none;
 }
 
 .profile {
@@ -98,6 +108,7 @@
 
 .education {
     height: 40%;
+    width: auto;
     background-color: dimgray;
 }
 
@@ -129,18 +140,6 @@
 h3 {
     padding-top: 10px;
     padding-left: 10px;
-}
-
-.circle {
-    border-radius: 50%;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.space-evenly {
-    justify-content: space-evenly;
 }
 
 .content-box {
